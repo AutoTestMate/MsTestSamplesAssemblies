@@ -3,7 +3,7 @@
   <!-- Configurations that affect the Test Framework -->
   <RunConfiguration>
     <!-- Path relative to solution directory -->
-    <ResultsDirectory>.\TestResults</ResultsDirectory>
+    <ResultsDirectory>/var/jenkins_home/</ResultsDirectory>
     <!-- [x86] | x64    - You can also change it from menu Test, Test Settings, Default Processor Architecture -->
     <!--<TargetPlatform>x86</TargetPlatform>-->
     <!-- Framework35 | [Framework40] | Framework45 -->
@@ -16,10 +16,9 @@
     <Parameter name="LogLevel" value="Debug" />
     <Parameter name="LogName" value="WebTest" />
     <Parameter name="BaseUrl" value="https://www.google.com" />
-    <Parameter name="DriverServerLocation" value="C:\Developer\SeleniumDrivers" />
     <Parameter name="Timeout" value="10" />
-    <Parameter name="OutputFileDirectory" value="\TestResults\" />
-    <Parameter name="OutputFileScreenshotsDirectory" value="\TestResults\ScreenshotsDirectory\" />
+    <Parameter name="OutputFileDirectory" value="/var/jenkins_home/" />
+    <Parameter name="OutputFileScreenshotsDirectory" value="/var/jenkins_home/" />
     <Parameter name="LoginWaitTime" value="1" />
     <Parameter name="NavigateToBasePage" value="false" />
     <Parameter name="ForceKillProcess" value="true" />
