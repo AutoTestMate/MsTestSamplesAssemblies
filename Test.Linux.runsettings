@@ -3,7 +3,7 @@
   <!-- Configurations that affect the Test Framework -->
   <RunConfiguration>
     <!-- Path relative to solution directory -->
-    <ResultsDirectory>/var/jenkins_home/</ResultsDirectory>
+    <ResultsDirectory>/var/jenkins_home/testResults/</ResultsDirectory>
     <!-- [x86] | x64    - You can also change it from menu Test, Test Settings, Default Processor Architecture -->
     <!--<TargetPlatform>x86</TargetPlatform>-->
     <!-- Framework35 | [Framework40] | Framework45 -->
@@ -17,8 +17,8 @@
     <Parameter name="LogName" value="WebTest" />
     <Parameter name="BaseUrl" value="https://www.google.com" />
     <Parameter name="Timeout" value="10" />
-    <Parameter name="OutputFileDirectory" value="/var/jenkins_home/" />
-    <Parameter name="OutputFileScreenshotsDirectory" value="/var/jenkins_home/" />
+    <Parameter name="OutputFileDirectory" value="/var/jenkins_home/testResults/" />
+    <Parameter name="OutputFileScreenshotsDirectory" value="/var/jenkins_home/testResults/" />
     <Parameter name="LoginWaitTime" value="1" />
     <Parameter name="NavigateToBasePage" value="false" />
     <Parameter name="ForceKillProcess" value="true" />
