@@ -10,7 +10,7 @@
     <!-- Framework35 | [Framework40] | Framework45 -->
     <!--<TargetFrameworkVersion>Framework45</TargetFrameworkVersion>-->
     <DisableParallelization>false</DisableParallelization>
-    <MaxCpuCount>2</MaxCpuCount>
+    <MaxCpuCount>4</MaxCpuCount>
   </RunConfiguration>
   <TestRunParameters>
     <Parameter name="LogLevel" value="Debug" />
@@ -36,7 +36,7 @@
   <!-- MSTest adapter -->
   <MSTest>
     <Parallelize>
-      <Workers>2</Workers>
+      <Workers>4</Workers>
       <Scope>MethodLevel</Scope>
     </Parallelize>
     <MapInconclusiveToFailed>True</MapInconclusiveToFailed>
