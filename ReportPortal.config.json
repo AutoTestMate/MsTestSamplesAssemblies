@@ -10,7 +10,7 @@
   },
   "launch": {
     "name": "AutoTestMate Samples MsTest Selenium Grid Tests",
-    "description": "This is a demo run of the ATP demo examples for a demonstration of Test Portal integration with MSTest tests.",
+    "description": "This is a Test Run of the AutoTestMate MsTest Samples with Selenium Grid setup with containers.",
     "debugMode": false,
     "tags": [ "AutoTestMate", "Samples", "MSTEST", "SeleniumGrid" ]
   }
