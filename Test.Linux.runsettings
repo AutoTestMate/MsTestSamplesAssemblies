@@ -24,12 +24,12 @@
     <Parameter name="NavigateToBasePage" value="false" />
     <Parameter name="ForceKillProcess" value="true" />
     <Parameter name="Headless" value="false" />
-    <Parameter name="BrowserType" value="chrome" />
+    <Parameter name="BrowserType" value="browser_type" />
     <Parameter name="BrowserProfile" value="default" />
     <Parameter name="BrowserOs" value="Linux" />
     <Parameter name="EnableDetailedLogging" value="false" />
     <Parameter name="UseSeleniumGrid" value="true" />
-    <Parameter name="SeleniumGridUrl" value="http://192.168.1.111:7001/wd/hub" />
+    <Parameter name="SeleniumGridUrl" value="selenium_grid_url" />
     <Parameter name="CalculatorHomePageUrl" value="https://ets-demo-test.azurewebsites.net" />
   </TestRunParameters>
   <!-- MSTest adapter -->
