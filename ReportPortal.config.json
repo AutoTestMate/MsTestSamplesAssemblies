@@ -9,9 +9,9 @@
     }
   },
   "launch": {
-    "name": "AutoTestMate Samples MsTest Selenium Grid Tests",
-    "description": "This is a Test Run of the AutoTestMate MsTest Samples with Selenium Grid setup with containers.",
+    "name": "AutoTestMate Samples MsTest selenium_grid_type Tests",
+    "description": "This is a Test Run of the AutoTestMate MsTest Samples with selenium_grid_type setup with containers.",
     "debugMode": false,
-    "tags": [ "AutoTestMate", "Samples", "MSTEST", "SeleniumGrid" ]
+    "tags": [ "AutoTestMate", "Samples", "MSTEST", "selenium_grid_type" ]
   }
 }
